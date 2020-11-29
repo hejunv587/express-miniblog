@@ -242,7 +242,8 @@
 
 <script>
 import CommentCom from './CommentManage'
-import Cropper from './Cropper'
+//mport Cropper from './Cropper'
+mport Cropper from './cropper' //文件名大小写问题
 import { quillEditor } from 'vue-quill-editor'
 import 'quill/dist/quill.core.css'
 import 'quill/dist/quill.snow.css'
